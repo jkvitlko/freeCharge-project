@@ -1,0 +1,48 @@
+.App {
+  text-align: center;
+}
+
+
+.App-header {
+  background-color:lightgrey;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+.recipe {
+  text-align: center;
+}
+.recipe-list {
+  margin-bottom: 20px;
+  max-width: 645px !important;
+}
+
+.recipeBg__img{
+  width: 100%;
+  mask-image: linear-gradient(to bottom, rgba(0,0,0,1),  rgba(0,0,0,0));
+  z-index: -1;
+  margin-bottom: -150px;
+}
+
+.bg-img {
+  background-image: url('./images/recipeBgImg.jpg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+
+.recieps{
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}

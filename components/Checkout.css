@@ -1,0 +1,15 @@
+ .checkout {
+    display: flex;
+    flex-direction: column;
+    align-items: center
+ }
+
+ .checkout-center {
+   margin: auto;
+   width: 50%;
+   /* border: 3px solid rgb(209, 190, 194); */
+   background-color: azure;
+   margin-top: 100px;
+   padding: 10px;
+ }
+ 
